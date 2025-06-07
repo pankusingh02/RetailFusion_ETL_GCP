@@ -59,7 +59,7 @@ A cloud-native, production-grade ETL pipeline that extracts, transforms, and loa
 
 ---
 
-##👨‍💻 Author
+## 👨‍💻 Author
 - Pankaj Singh
 - Data Engineer (3+ YOE) | ETL | GCP | Airflow | BigQuery
 - 📧 Email: pankajaswal2018@gmail.com
