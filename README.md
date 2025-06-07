@@ -33,7 +33,7 @@ A cloud-native, production-grade ETL pipeline that extracts, transforms, and loa
       |   MySQL DB  | ---> |  (modular code)  |
       +-------------+      +------------------+
                                 |       |
-
+```
 ---
 
 ## ⚙️ Technologies Used
@@ -49,11 +49,19 @@ A cloud-native, production-grade ETL pipeline that extracts, transforms, and loa
 
 ---
 
-✅ Future Enhancements
+## ✅ Future Enhancements
 
-Integrate CI/CD via GitHub Actions
-Unit testing using PyTest
-Load metadata & audit logging in BigQuery
-Support streaming data (Kafka / PubSub)
-Looker Studio dashboard on top of BigQuery
+- Integrate CI/CD via GitHub Actions
+- Unit testing using PyTest
+- Load metadata & audit logging in BigQuery
+-Support streaming data (Kafka / PubSub)
+- Looker Studio dashboard on top of BigQuery
 
+---
+
+##👨‍💻 Author
+- Pankaj Singh
+- Data Engineer (3+ YOE) | ETL | GCP | Airflow | BigQuery
+- 📧 Email: pankajaswal2018@gmail.com
+
+---
