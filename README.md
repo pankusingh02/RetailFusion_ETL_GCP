@@ -32,7 +32,7 @@ A cloud-native, production-grade ETL pipeline that extracts, transforms, and loa
       |  REST API   | ---> |   Python ETL     | ---> GCS (Staging) ---> BigQuery
       |   MySQL DB  | ---> |  (modular code)  |
       +-------------+      +------------------+
-
+                                |       |
 ```
 ---
 
