@@ -1,6 +1,4 @@
-from extract.extract_api import extract_exchange_rates
+from extract.extract_sql import extract_orders_from_postgres
 
-
-df = extract_exchange_rates("EUR", ["USD", "INR"])
-
+df = extract_orders_from_postgres()
 print(df)

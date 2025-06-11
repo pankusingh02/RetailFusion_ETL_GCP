@@ -12,7 +12,7 @@ from typing import List, Optional
 
 def extract_exchange_rates(
     base_currency: str = 'USD',
-    target_currencies: Optional[List[str]] = None) -> pd.DataFrame:
+    target_currencies: list=["USD","INR"]) -> pd.DataFrame:
 
     #Loading API key
     api_key = os.getenv("EXCHANGE_API_KEY")
