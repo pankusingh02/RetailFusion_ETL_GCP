@@ -25,7 +25,7 @@ def extract_exchange_rates(
     url = f"https://api.exchangeratesapi.io/v1/latest"
     params={
         "access_key":api_key,
-        "base":base_currency,
+        # "base":base_currency,
         "symbols":symbols
     }
 
@@ -33,6 +33,7 @@ def extract_exchange_rates(
         logger.info(f'Fetching exchange rates for {base_currency}->{target_currencies}')
         response=requests.get(url,params=params)
         data= response.json()
+        print(f'API RESPONSE+=============> {data}')
 
         if not data.get("success", False):
             msg=data.get("error",{}).get("info", 'Unknown error')
