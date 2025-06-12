@@ -1,7 +1,18 @@
-from extract.extract_csv import extract_csv  # Import our extraction function
+from extract.extract_sql import extract_orders_from_postgres
+from extract.extract_api import extract_exchange_rates
+from transform.transform_order_data import normalize_orders_currency
+from load.load_to_bigquery import load_to_bigquery
 
-csv_path='sample_data.csv'
+# 1. Extract both data sources
+orders_df = extract_orders_from_postgres()
+fx_df = extract_exchange_rates("USD", ["USD", "EUR", "INR"])
 
-df= extract_csv(csv_path)
+print(f'===========>{fx_df}')
 
-print(df.head())
+# 2. Apply transformation
+normalized_df = normalize_orders_currency(orders_df, fx_df)
+
+print(normalized_df)
+
+# load
+load_to_bigquery(normalized_df)
