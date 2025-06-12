@@ -1,0 +1,5 @@
+// filepath: /Users/pankajsingh/Developer/Data_Engineering/RetailFusion_ETL_GCP/.gitignore
+# Credentials
+*.json
+!package.json
+.env
