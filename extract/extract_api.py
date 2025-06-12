@@ -4,6 +4,7 @@ import requests
 import os
 from datetime import datetime
 from utils.logger import get_logger
+from dotenv import load_dotenv
 
 logger=get_logger(__name__)
 

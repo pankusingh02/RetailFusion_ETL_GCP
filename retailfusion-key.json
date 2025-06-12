@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "molten-plate-442511-u0",
+  "private_key_id": "c9ba428b6e6ea6c2f5ddaf2e1f2d0e147881df0e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDr59PUI1x9fs1U\n/ms6EBK3/HnTkqlAx6vpWKZrtEeG/0zyoLfTvWUnQ9vQlwBm812o7RZ9bqzujd/h\nq1HXSAiPuw3J+UrXDilAHBeOMjkuU9j4IyN7ODFtQ/IqIw0IEBi7mAr2RMUW+qNQ\nfK2CUWjvXEL3/V9VDZ8HeAUrtBkkytXP7cI6RxQlE/SqMATZNMc3X1XcmZJYkv+r\njBUVimV8vOG4B6+eaW0iSjePB7PJ1eB4uhCmFQ+ggg7K4TZxR3Yz1s6Pa9eRg3iI\n9cGM0nRAzHyd1DK9GgglZC/0RoQoRwzrM7mtNJQO8pHr93qPL1N3NWbqK9UCvD9V\n2hoAeOtpAgMBAAECggEACAdjW8B6WOEUbvSbxKWgZXen084ViZliHfaA74B6wLr2\nrPlQWFoFU9FI7W/+OQLGaMXs8obuRs44VO9mQSv38qBcp0efRvN57u8l1BacgJmk\n9EkJ35s5f20FFG8N9fzKQrQ5h0ku5gnQviAILbvElQTwWI1cjcIBbBknH+Yoxuo5\nos7gqaO5lKrzbXPoufkp0LZisg/Z0gnphu4zrCQqwSV7Ouo6HWr2DXGIdYYxjY0N\nKCFr+MEHI6JYGAa4gnxyNN8lrI2Xefh0j9dk+wpEIhPNpKNIT5sEMQ7hva9Jh0+O\n8lPfGCPX3JN2pWdrDf+2xr7P0AskzbhlBWc0ZOraCQKBgQD5tTs1X8L5t2MfkhbV\ngyovPDA5++yuC1GFXSgehTD07NdLoxG6DoZpnl0n0eIa0BV+LjamnaGLCzlmc0/3\nFc/eylmEvr1K8FqJUuvQREyBt0p46E/ZG4kaX8aczPcFT6aj3aU0ZDct3drhZ1t9\nIpaT3IputxPqFhp+P0zlLxGUpQKBgQDx2ZABzgTLl5Q+PJ1h2XfwUBe0tAYGsFXI\n8YNmJAXIU7qePhyTpP8FiOinZ3OiTS3aYSwA0ujxQQrw81W73Jdcf1AewKP8o+wZ\n7gYs6kRHFcRik0QVWrbFBOd0NvlG4iSKlGC8QoMqk6UQT5O7JxI0GleUpqyfeh+h\nx0Z46+NMdQKBgQCiBjIw474DgjbTGVuvlrgchhVUyl48YCO5QUTy6MFnavYXoeuy\nqhIVHiib2de4RiRsB1h2q/lR2yqXi2LrlD+Y8/s54vm4UlSsnh1cubRaxq+P3E1T\nNkaz0klxHJ172L7rvLmhURVssXOApiv6+iJyNrusMya80TLHkBM48l2Z8QKBgQDn\nzwCYuj8eZUtR3Ad9olOzoxEVwveDscCHufWYES75tEdLJX1+hsdpJrDYw++xwQgS\nKNFkeMONeipiiNnEFst9fQnub/a+UOAcemiw5FpNSC/TzBOV5D0K2oh+e7Kynk8o\nBNAzogzW4m10FNIksG5iQl1vvdH3ibaH+dkyTeavgQKBgFiXzC4rpqfhliO4Uk1u\nVjTIUjhMtIYz58rDmk3BwPw1Nxd4i9QJMUtgnQZDX9ez9jDkA96gOpMJaX1KmpgO\ngd3/xUGCgHANJlkYpS/m0Uj/yPPokQA5Mi/rp6kxdfJ3H7GXC3YqufeBMFBIlOX3\ntSR8+Zfy1xizCaq1QT9SP/nz\n-----END PRIVATE KEY-----\n",
+  "client_email": "weather-etl@molten-plate-442511-u0.iam.gserviceaccount.com",
+  "client_id": "104093786074138197185",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/weather-etl%40molten-plate-442511-u0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
