@@ -8,7 +8,7 @@ A cloud-native, production-grade ETL pipeline that extracts, transforms, and loa
 
 - Extract data from:
   - 📄 CSV Files (Product Catalogs)
-  - 🌐 REST API (Exchange Rates)
+  - 🌐 REST API (Exchange Rates): (https://exchangeratesapi.io/)
   - 🛢️ MySQL Database (Transactional Sales Data)
 - Transformations using Pandas:
   - Null handling, timestamp standardization
